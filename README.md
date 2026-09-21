@@ -63,3 +63,7 @@ ca846f1a08c9da22d2aa6f877fe691e98b1e83da6e492557c5f8d410fa419cd8
 
 Steam updates may replace the game executable. Run the patcher again against
 the updated file only if its fingerprint is supported by this repository.
+
+## Related project
+
+- [HROT - Proton performance fix](https://github.com/Baegus/HROT-Proton-Fix)
