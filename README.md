@@ -35,10 +35,10 @@ Install the dependency:
 python -m pip install pefile
 ```
 
-Place `deck_patch.py` beside the original game executable and run:
+Place `topr_patch.py` beside the original game executable and run:
 
 ```sh
-python deck_patch.py
+python topr_patch.py
 ```
 
 The script creates `topr-original.exe` as a backup, then safely replaces
@@ -49,7 +49,7 @@ and makes no changes.
 To patch an installation in another directory, specify its executable:
 
 ```sh
-python deck_patch.py --input /path/to/topr.exe
+python topr_patch.py --input /path/to/topr.exe
 ```
 
 The patcher refuses files it does not recognize and never overwrites an
